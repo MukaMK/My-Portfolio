@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #504C4D;
+}
+
+.logo img {
+    max-height: 55px;
+}
+
+.nav-buttons {
+    margin-left: auto;
+}
+
+.nav-buttons button{
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.texto-principal {
+    color: #007BFF;
+    align-items: center;
+}
